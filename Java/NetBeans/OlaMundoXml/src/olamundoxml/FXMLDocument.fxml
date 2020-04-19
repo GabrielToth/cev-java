@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olamundoxml.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnC" layoutX="88.0" layoutY="108.0" mnemonicParsing="false" onAction="#clicouBotao" text="ISSO NÃO É UM BOTÃO" />
+      <Label fx:id="lblM" layoutX="56.0" layoutY="43.0" text="NÃO CLIQUE NO BOTÃO" textFill="#ee0e0e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

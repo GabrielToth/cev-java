@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'progmine'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/groups/public/'}
+}
+
+dependencies {
+    compile 'org.bukkit:bukkit:1.10.2-R0.1-SNAPSHOT'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
